@@ -10,7 +10,7 @@ const Home = () => {
       <ArticlesSection />
       <VideosSection />
       <GallerySection />
-    <p>A quick brown fox jumps over the lazy dog.</p>
+      
     </div>
   )
 }
