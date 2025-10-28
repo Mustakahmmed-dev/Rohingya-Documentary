@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero/Hero"
 import ArticlesSection from "@/components/HomeSections/ArticlesSection"
+import GallerySection from "@/components/HomeSections/GallerySection"
 import VideosSection from "@/components/HomeSections/VideosSection"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <ArticlesSection />
       <VideosSection />
+      <GallerySection />
     <p>A quick brown fox jumps over the lazy dog.</p>
     </div>
   )
