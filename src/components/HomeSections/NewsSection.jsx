@@ -1,5 +1,6 @@
 "use client";
 
+import { ChevronsRight } from "lucide-react";
 import Link from "next/link";
 
 const sampleNews = [
@@ -54,7 +55,7 @@ export default function NewsSection() {
             href="/news"
             className="text-red-500 hover:text-red-400 font-semibold transition-all flex items-center gap-1"
           >
-            See all news →
+            See all news <ChevronsRight />
           </Link>
         </div>
         <p>Stay up to date with our latest news and updates from Arakan state of Myanmar. We are writing from the most persecuted Rohingya community in Arakan state. </p>
