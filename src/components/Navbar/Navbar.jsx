@@ -49,13 +49,13 @@ const Navbar = () => {
               <ChevronUp className="hidden group-hover:block ml-1" />
             </button>
             <ul className="group-hover:block hidden absolute z-50 backdrop-blur-3xl bg-black/80 rounded w-[300px] py-3">
-              <li><Link href="/" className="block px-3 py-2 hover:bg-red-500">Videos</Link></li>
-              <li><Link href="/" className="block px-3 py-2 hover:bg-red-500">Article Stories</Link></li>
+              <li><Link href="/videos" className="block px-3 py-2 hover:bg-red-500">Videos</Link></li>
+              <li><Link href="/articles" className="block px-3 py-2 hover:bg-red-500">Articles</Link></li>
               <li><Link href="/rohingya-genocide-gallery" className="block px-3 py-2 hover:bg-red-500">Rohingya Genocide Gallery</Link></li>
             </ul>
           </li>
-          <li><Link href="/" className="px-4 py-3 hover:text-red-500 ">Rohingya History</Link></li>
-          <li><Link href="/" className="px-4 py-3 hover:text-red-500 ">News & Updates</Link></li>
+          <li><Link href="/rohingya-history" className="px-4 py-3 hover:text-red-500 ">Rohingya History</Link></li>
+          <li><Link href="/news" className="px-4 py-3 hover:text-red-500 ">News & Updates</Link></li>
         </ul>
 
         <Search />
@@ -107,8 +107,8 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" onClick={() => setOpenDrawer(false)} className="block px-4 py-2 hover:bg-red-500 rounded">
-                      <span className="flex items-center"><ChevronsRight size={18} className="text-gray-300 mr-1" /> Article Stories</span>
+                    <Link href="/articles" onClick={() => setOpenDrawer(false)} className="block px-4 py-2 hover:bg-red-500 rounded">
+                      <span className="flex items-center"><ChevronsRight size={18} className="text-gray-300 mr-1" /> Articles</span>
                     </Link>
                   </li>
                   <li>
