@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-black text-gray-300 py-12 px-6 md:px-16 border-t border-gray-800">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
-        {/* Logo and About */}
         <div>
           <h2 className="text-2xl font-semibold text-white mb-3">
             AA<span className="text-blue-500">RA</span>
@@ -19,7 +18,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Explore</h3>
           <ul className="space-y-2">
@@ -31,11 +29,10 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
           <p className="text-sm mb-2">
-            For collaborations, contributions, or story submissions:
+            For any kind of information regarding the documentaries against the Rohingya Atrocities committed by Myanmar military and Arakan Army terrorists and beyond.
           </p>
           <div className="flex items-center gap-2">
             <Mail size={18} />
@@ -45,9 +42,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
+          <h3 className="text-lg font-semibold text-white mb-4">Connect Us</h3>
           <div className="flex gap-4">
             <Link href="#" className="hover:text-red-500">
               <Youtube size={22} />
@@ -57,6 +53,9 @@ const Footer = () => {
             </Link>
             <Link href="#" className="hover:text-red-500">
               <Twitter size={22} />
+            </Link>
+            <Link href="mailto:info@aara.org" className="hover:text-red-500">
+              <Mail size={22} />
             </Link>
           </div>
         </div>
