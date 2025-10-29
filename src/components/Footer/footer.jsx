@@ -26,6 +26,7 @@ const Footer = () => {
             <li><Link href="/documentaries" className="hover:text-red-500">Documentaries</Link></li>
             <li><Link href="/history" className="hover:text-red-500">Rohingya History</Link></li>
             <li><Link href="/news" className="hover:text-red-500">News & Updates</Link></li>
+            <li><Link href="/rohingya-genocide-gallery" className="hover:text-red-500">Rohingya Genocide Gallery </Link></li>
           </ul>
         </div>
 
