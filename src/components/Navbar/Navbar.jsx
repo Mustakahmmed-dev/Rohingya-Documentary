@@ -41,7 +41,7 @@ const Navbar = () => {
 
         <ul className="flex items-center">
           <li><Link href="/" className="px-4 py-3 hover:text-red-500 ">Home</Link></li>
-          <li><Link href="/" className="px-4 py-3 hover:text-red-500 ">About</Link></li>
+          <li><Link href="/about-us" className="px-4 py-3 hover:text-red-500 ">About Us</Link></li>
           <li className="relative group">
             <button className="px-4 py-3 hover:text-red-500 flex items-center ">
               Documentaries
@@ -87,7 +87,7 @@ const Navbar = () => {
           {/* Drawer Links */}
           <ul className="flex flex-col py-4 px-2 space-y-1">
             <li><Link href="/" onClick={() => setOpenDrawer(false)} className="px-4 py-3 hover:bg-red-500 rounded block">Home</Link></li>
-            <li><Link href="/" onClick={() => setOpenDrawer(false)} className="px-4 py-3 hover:bg-red-500 rounded block">About</Link></li>
+            <li><Link href="/about-us" onClick={() => setOpenDrawer(false)} className="px-4 py-3 hover:bg-red-500 rounded block">About Us</Link></li>
 
             {/* Dropdown with toggle for small devices */}
             <li>
