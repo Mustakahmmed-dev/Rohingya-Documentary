@@ -61,7 +61,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Line */}
       <div className="mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-400">
         &copy; {new Date().getFullYear()} AA<span className="text-blue-500">RA</span> | Rohingya Documentary Archives. All rights reserved.
       </div>
