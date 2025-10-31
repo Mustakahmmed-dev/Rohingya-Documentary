@@ -49,11 +49,11 @@ export default function NewsSection() {
   return (
     <section className="bg-neutral-900 text-white py-20 px-6 md:px-16">
       <div className="max-w-7xl mx-auto space-y-12">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between flex-col md:flex-row gap-3 items-center">
           <h2 className="text-3xl md:text-4xl font-bold">News & Updates</h2>
           <Link
             href="/news"
-            className="text-red-500 hover:text-red-400 font-semibold transition-all flex items-center gap-1"
+            className="text-red-500 hover:text-red-400 font-semibold transition-all flex items-center gap-1 text-lg"
           >
             See all news <ChevronsRight />
           </Link>

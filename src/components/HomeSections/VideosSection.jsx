@@ -90,7 +90,7 @@ export default function VideosSectionSimple() {
                 <div className="mt-8 text-center">
                     <Link
                         href="/videos"
-                        className="text-blue-400 hover:text-red-500 font-semibold flex items-center "
+                        className="text-blue-400 hover:text-red-500 text-lg font-semibold flex items-center "
                     >
                         See all videos <ChevronsRight />
                     </Link>
